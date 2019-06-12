@@ -1,0 +1,8 @@
+<div class="signin-body">
+  <form (submit)="login($event)">
+    <input type="text" placeholder="用户名" [(ngModel)]="username" name="username">
+    <input type="text" placeholder="密码" [(ngModel)]="password" name="password">
+
+    <button>登录</button>
+</form>
+</div>

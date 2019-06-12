@@ -1,0 +1,9 @@
+{
+    "/api/*": {
+        "target":"https://tcc.taobao.com",
+        "secure":false,
+        "pathRewrite": {"^/api" : ""},
+        "logLevel":"debug",
+        "changeOrigin":true
+    }
+}

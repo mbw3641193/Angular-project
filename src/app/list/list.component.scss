@@ -1,0 +1,47 @@
+.list-body{
+    background-color: #fff;
+
+    dl{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+
+        dt{
+            margin: 0;
+            padding: 0;
+            height: 35px;
+            div{
+                box-sizing: border-box;
+                float: left;
+                width: 25%;
+                line-height: 35px;
+                border-bottom: 1px solid #eee;
+                text-align: center;
+                border-right: 1px solid #eee;
+
+                &:last-child{
+                    border-right: none 0;
+                }
+            }
+        }
+        dd{
+            margin: 0;
+            padding: 0;
+            height: 35px;
+            div{
+                box-sizing: border-box;
+                float: left;
+                width: 25%;
+                line-height: 35px;
+                height: 35px;
+                border-bottom: 1px solid #eee;
+                text-align: center;
+                border-right: 1px solid #eee;
+
+                &:last-child{
+                    border-right: none 0;
+                }
+            }
+        }
+    }
+}
